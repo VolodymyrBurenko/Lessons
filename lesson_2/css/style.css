@@ -1,0 +1,31 @@
+body {
+   background: #eaeaea;
+}
+
+span {
+   color: orange;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   background-color: #ffffff;
+}
+
+img {
+   display: inline-block;
+   /* float: left; */
+   height: 120px;
+}
+
+.header__body {
+   display: flex;
+}
+
+.header__title {
+   width: 100%;
+   align-self: center;
+}
