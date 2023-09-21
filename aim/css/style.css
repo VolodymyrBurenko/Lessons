@@ -69,6 +69,10 @@ section {
    padding: 5px 15px;
 }
 
+.header__link {
+   font-size: 20px;
+}
+
 /* .header__item:hover {
    background-color: orange;
 } */
@@ -98,8 +102,12 @@ section {
 @media(max-width:786px) {
 
    .header__item {
-      font-size: 16px;
       padding: 5px;
+      border-bottom: 1px solid #e0e8eb;
+   }
+
+   .header__link {
+      font-size: 16px;
    }
 
    .about__col {
@@ -110,6 +118,10 @@ section {
       display: none;
    }
 
+   .contact__text .contact__icons {
+      color: #c7164a;
+   }
+
    .registration__form {
       flex-wrap: wrap;
    }
@@ -117,6 +129,7 @@ section {
    .footer__title,
    .footer__text,
    .footer__link {
+      color: #ffffff;
       font-size: 16px;
    }
 }
@@ -146,7 +159,7 @@ section {
    }
 
    .header__row {
-      height: 60px;
+      height: 80px;
    }
 
    .header__logo {
@@ -157,7 +170,7 @@ section {
       display: block;
       position: fixed;
       left: -100%;
-      top: 60px;
+      top: 80px;
       border-top: solid 3px #ffffff;
       background-color: #757575;
       width: 100%;
@@ -182,21 +195,32 @@ section {
    .header__item a {
       color: #ffffff;
       font-size: 18px;
-      font-weight: 400;
-      padding: 8px 5px;
+      font-weight: 500;
+      padding: 8px 25px;
+      letter-spacing: 1px;
    }
 
    .header__item a:hover {
-      color: #2b363b;
+      color: #c7164a;
    }
 
    #home {
-      margin-top: 60px;
+      margin-top: 80px;
+   }
+
+   .contact__text .contact__icons {
+      color: #c7164a;
+   }
+
+   .footer__col-1 {
+      display: none;
    }
 
    .footer__title,
    .footer__text,
-   .footer__link {
+   .footer__link,
+   .footer__text a {
+      color: #ffffff;
       font-size: 16px;
    }
 }
@@ -278,14 +302,16 @@ section {
    background-color: #e0e8eb;
    flex-wrap: wrap;
    margin-bottom: 30px;
+   padding-bottom: 30px;
 }
+
 
 .services__block {
    display: flex;
    flex-direction: column;
    padding: 25px;
    background-color: #ffffff;
-   margin: 30px;
+   margin: 30px 30px 0 30px;
    line-height: 31.5px;
    height: 320px;
    width: 300px;
@@ -297,6 +323,7 @@ section {
    line-height: 31.5px;
    margin-bottom: 16px;
    text-align: center;
+   min-height: 126px;
 }
 
 .services__text {
@@ -321,6 +348,11 @@ section {
 
 .contact__col-1 {
    min-width: max-content;
+   margin-right: 5px;
+}
+
+.contact__col-2 {
+   margin-left: 5px;
 }
 
 .contact__subtitle {
@@ -493,25 +525,29 @@ button:hover {
    display: flex;
    align-items: center;
    padding-top: 10px;
+   font-style: 16px;
 }
 
 .footer__link {
    padding: 0;
 }
 
+.footer__title,
 .footer__text a,
 .footer__text p,
+.footer__text i,
 a.footer__link {
-   color: #757575;
+   /* color: #757575; */
+   color: #ffffff;
    padding-left: 12px;
 }
 
-.footer__text a:hover,
+/* .footer__text a:hover,
 .footer__text:hover i,
 .footer__text p:hover,
 a.footer__link:hover {
    color: #ffffff;
-}
+} */
 
 .footer__line {
    border: 1px solid #757575;
