@@ -89,7 +89,7 @@
 			<section id="services" class="services">
 				<div class="services__container">
 					<div class="services__title block-title right-title">
-						<h2 id="services" class="title">Послуги</h2>
+						<h2 class="title">Послуги</h2>
 					</div>
 					<div class="services__row">
 						<div class="services__block">
@@ -174,7 +174,6 @@
 						<h2 class="title">Реєстрація</h2>
 					</div>
 					<div class="registration__row">
-
 						<div class="registration__text block-text">
 							<p>
 								<i class="registration_icon fa fa-question"></i>
@@ -188,38 +187,36 @@
 							</p>
 						</div>
 						<div class="registration__item">
-							
-								<form method="post" action="handler.php" id="form1">
-									<div class="registration__form">
-										<div>
-											<div class="registration__name">
-												<label for="name" value="Name">Ім'я:</label>
-												<input type="text" id="name" name="name" placeholder="Ім'я"><br><br>
-											</div>
-											<div class="registration__phone">
-												<label for="phone">Введіть номер телефону:</label>
-												<input type="tel" id="phone" name="phone" placeholder="(050) 123-45-67"
-													pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
-											</div>
-											<div class="registration__email">
-												<label for="email">Email:</label>
-												<input type="email" id="email" name="email" autocomplete="off"
-													placeholder="e-mail@mail.com"><br><br>
-											</div>
+							<form method="post" action="handler.php" id="form1">
+								<div class="registration__form">
+									<div>
+										<div class="registration__name">
+											<label for="name" value="name">Ім'я:</label>
+											<input type="text" id="name" name="name" placeholder="Ім'я"><br><br>
 										</div>
-										<div>
-											<div class="registration__textarea">
-												<label for="textarea">Опис:</label>
-												<textarea id="textarea" class="application__textarea" name="textareaw" rows="4"
-													cols="350" placeholder="Додаткова інформація"></textarea>
-											</div>
-											<div class="registration__btn">
-												<button type="submit" form="form1" value="Submit" class="btn">Відправити</button>
-											</div>
+										<div class="registration__phone">
+											<label for="phone">Введіть номер телефону:</label>
+											<input type="tel" id="phone" name="phone" placeholder="(050) 123-45-67"
+												pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+										</div>
+										<div class="registration__email">
+											<label for="email">Email:</label>
+											<input type="email" id="email" name="email" autocomplete="off"
+												placeholder="e-mail@mail.com"><br><br>
 										</div>
 									</div>
-								</form>
-							
+									<div>
+										<div class="registration__textarea">
+											<label for="textarea">Опис:</label>
+											<textarea id="textarea" class="application__textarea" name="textareaw" rows="4"
+												cols="350" placeholder="Додаткова інформація"></textarea>
+										</div>
+										<div class="registration__btn">
+											<button type="submit" form="form1" value="Submit" class="btn">Відправити</button>
+										</div>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -265,7 +262,7 @@
 			</div>
 		</footer>
 	</div>
-	<!-- --- Connection JS script --- -->
+	<!-- Connection JS script -->
 	<script src="js/script.js"></script>
 </body>
 
