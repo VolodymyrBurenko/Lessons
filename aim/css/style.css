@@ -127,6 +127,10 @@ section {
       flex-wrap: wrap;
    }
 
+   .footer__col-1 {
+      display: none;
+   }
+   
    .footer__title,
    .footer__text,
    .footer__link {
