@@ -127,10 +127,14 @@ section {
       flex-wrap: wrap;
    }
 
-   .footer__col-1 {
+   .footer__cel {
       display: none;
    }
-   
+
+   .footer__col-2 {
+      width: 100%;
+   }
+
    .footer__title,
    .footer__text,
    .footer__link {
@@ -217,8 +221,12 @@ section {
       color: #c7164a;
    }
 
-   .footer__col-1 {
+   .footer__cel {
       display: none;
+   }
+
+   .footer__col-2 {
+      width: 100%;
    }
 
    .footer__title,
