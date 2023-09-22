@@ -118,6 +118,7 @@ section {
       display: none;
    }
 
+
    .contact__text .contact__icons {
       color: #c7164a;
    }
@@ -249,7 +250,7 @@ section {
 }
 
 .block-text p {
-   font-style: 18px;
+   font-size: 18px;
    line-height: 31.5px;
    text-indent: 30px;
    margin-bottom: 15px;
@@ -301,8 +302,8 @@ section {
    justify-content: center;
    background-color: #e0e8eb;
    flex-wrap: wrap;
-   margin-bottom: 30px;
-   padding-bottom: 30px;
+   gap: 30px;
+   padding: 30px;
 }
 
 
@@ -311,18 +312,34 @@ section {
    flex-direction: column;
    padding: 25px;
    background-color: #ffffff;
-   margin: 30px 30px 0 30px;
    line-height: 31.5px;
-   height: 320px;
-   width: 300px;
+   /* height: 320px; */
+   /* width: 300px; */
+   height: 300px;
+   width: 250px;
+}
+
+/* .services__block:last-child {
+   margin-right: 30;
+} */
+
+.services__icons {
+   text-align: center;
+   font-size: 48px;
+   padding-bottom: 10px;
+   margin: 30px 25px;
+   color: #614d9b;
+   color: #e0e8eb;
 }
 
 .services__subtitle {
-   font-size: 28px;
+   /* font-size: 28px; */
+   font-size: 20px;
    font-weight: 700;
    line-height: 31.5px;
    margin-bottom: 16px;
    text-align: center;
+   ;
    min-height: 126px;
 }
 
@@ -330,7 +347,7 @@ section {
    display: flex;
    text-align: justify;
    font-size: 0.875em;
-   padding: 0.3125em;
+   /* padding: 0.3125em; */
 }
 
 /* --- Section Contact --- */
@@ -343,7 +360,7 @@ section {
    display: flex;
    justify-content: space-evenly;
    flex-wrap: wrap;
-   padding: 0 30px 30px 30px;
+   padding: 0 25px 25px 25px;
 }
 
 .contact__col-1 {
@@ -525,7 +542,7 @@ button:hover {
    display: flex;
    align-items: center;
    padding-top: 10px;
-   font-style: 16px;
+   font-size: 16px;
 }
 
 .footer__link {
