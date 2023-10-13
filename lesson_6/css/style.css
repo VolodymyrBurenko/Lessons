@@ -1,0 +1,160 @@
+/* ========================= ШРИФТИ =============================== */
+
+/*------------------- Підключення шрифтів ------------------------- */
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+/* Підключення вручну */
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+main {
+	padding: 30px;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+.main-title,
+.title,
+.sub-title {
+	font-family: "Poppins", sans-serif;
+}
+
+
+/* -------- CSS-властивості тексту ------------ */
+
+[class*="__container"] {
+	margin: 0 auto;
+	padding: 0 5px;
+	max-width: 1196px;
+	text-align: justify;
+}
+
+.page__consulting {
+	margin: 0 auto;
+	max-width: 702px;
+	left: 247px;
+	margin-bottom: 20px;
+}
+
+.page__image {
+	padding: 0 5px;
+	margin-bottom: 37px;
+}
+
+.page__image img {
+	max-width: 682px;
+}
+
+.page__title {
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 38.10px;
+	margin-bottom: 3px;
+}
+
+.page__text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26.31px;
+	text-align: justify;
+	margin-bottom: 42px;
+}
+
+.page__subtitle {
+	color: #6B77E5;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 25.40px;
+	word-wrap: break-word;
+	margin-bottom: 12px;
+}
+
+.page__image2 {
+	display: inline-block;
+	padding: 0 14.5px 0 5px;
+	margin-bottom: 5px;
+}
+
+.page__image2 img {
+	vertical-align: unset;
+}
+
+.page__block {
+	display: inline-block;
+	width: 332px;
+	padding: 0 18.99px 0 14.5px;
+	vertical-align: top;
+}
+
+.small-title {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.green-subtitle {
+	color: #40DDB6;
+	font-size: 20px;
+	line-height: 25.40px;
+	margin-bottom: 21px;
+}
+
+.page__list li {
+	margin-bottom: 30px;
+}
+
+.page__jewellery {
+	background-color: #FFF9F4;
+	padding-top: 15px;
+}
+
+.brown-subtitle {
+	color: #D06B00;
+	font-size: 28px;
+	font-family: Inter;
+	margin-bottom: 13px;
+	margin-top: 25px;
+}
+
+.block-jewellery {
+	min-width: 563px;
+	padding-right: 38px;
+}
+
+.big-title {
+	color: #0E333D;
+	font-size: 59px;
+	font-family: DM Serif Text;
+	font-weight: 400;
+	line-height: 86.44px;
+	margin-bottom: 25px;
+}
+
+.text-jewellery {
+	display: inline-block;
+	color: #474747;
+	font-size: 20px;
+	font-family: Inter;
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+
+.jewellery {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.jewellery img {
+	max-width: 273px;
+}
