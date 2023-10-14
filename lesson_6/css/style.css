@@ -54,6 +54,7 @@ main {
 
 .page__image img {
 	max-width: 682px;
+	width: 100%;
 }
 
 .page__title {
