@@ -48,7 +48,7 @@ main {
 }
 
 .page__image {
-	padding: 0 5px;
+	max-width: 100%;
 	margin-bottom: 37px;
 }
 
@@ -84,12 +84,7 @@ main {
 
 .page__image2 {
 	display: inline-block;
-	padding: 0 14.5px 0 5px;
 	margin-bottom: 5px;
-}
-
-.page__image2 img {
-	vertical-align: unset;
 }
 
 .page__block {
