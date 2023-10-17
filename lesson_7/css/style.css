@@ -1,0 +1,219 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,600,700&display=swap");
+/* Підключення вручну */
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+main {
+	padding: 30px;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+.main-title,
+.title,
+.sub-title {
+	font-family: "Poppins", sans-serif;
+}
+
+
+/* -------- CSS-властивості тексту ------------ */
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1218px;
+	text-align: justify;
+}
+
+.title,
+.subtitle {
+	color: #37393F;
+	font-family: Poppins;
+	font-weight: 700;
+}
+
+.page__title-marker {
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.page__marker {
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+}
+
+.page__small-title {
+	display: inline-block;
+}
+
+.page__main-title {
+	text-align: center;
+	font-size: 60px;
+	line-height: 121%;
+	/* 72.6px */
+	margin-bottom: 70px;
+}
+
+.page__block {
+	margin-bottom: 50px;
+}
+
+.page__title {
+	font-size: 40px;
+	line-height: 121%;
+	/* 48.4px */
+	margin-bottom: 11px;
+}
+
+.page__text {
+	font-family: Inter;
+	font-size: 18px;
+	line-height: 146.187%;
+	/* 26.314px */
+	margin-bottom: 30px;
+}
+
+.page__textp:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.page__text p:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.page__subtitle {
+	display: inline-block;
+	font-family: Poppins;
+	font-size: 30px;
+	margin-right: 18px;
+}
+
+.page__link {
+	display: inline-block;
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 30px;
+}
+
+.fhotography-subtitle {
+	margin-bottom: 8px;
+}
+
+.text-green {
+	color: #40DDB6;
+}
+
+.fonts-text a {
+	font-size: 18px;
+}
+
+.mark-style-1 {
+	list-style-type: disc;
+	margin-left: 36px;
+	margin-bottom: 30px;
+}
+
+.mark-style-2 {
+	list-style-type: decimal-leading-zero;
+	margin-left: 56px;
+	margin-bottom: 30px;
+}
+
+.violet-element {
+	display: inline-block;
+	height: 28px;
+	width: 6px;
+	margin-right: 15px;
+	border-radius: 10px;
+	background: #8A33FD;
+	font-size: 0;
+}
+
+.titile-product-list {
+	display: inline-block;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.titile-product-list h3 {
+	font-size: 31px;
+}
+
+.page__text span {
+	font-weight: 600;
+}
+
+.block-jewellery {
+	display: inline-block;
+	font-family: Cormorant Infant;
+	max-width: 503px;
+	margin-right: 90px;
+	padding-top: 70px;
+}
+
+.brown-subtitle {
+	color: #D58417;
+	font-family: Cormorant Infant;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	margin-bottom: 27px;
+}
+
+.big-title {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 64px;
+	font-weight: 700;
+	margin-bottom: 31px;
+}
+
+.text-jewellery {
+	display: inline-block;
+	color: #606060;
+	font-size: 30px;
+	font-family: Cormorant Infant;
+	font-weight: 700;
+	line-height: 42px;
+		margin-bottom: 20px;
+	max-width: 489px;
+}
+
+.jewellery {
+	display: inline-block;
+	margin-bottom: 10px;
+	border: 1px solid #502203;
+	border-radius: 150px;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+.img-jewellery {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.jewellery.middle img {
+	width: 100%;
+	transform: translate(-11px, 19px);
+}
+
+.jewellery.small img {
+	width: 100%;
+	transform: translate(-10px, 14px);
+}
