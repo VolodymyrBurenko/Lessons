@@ -1,0 +1,380 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,600,700&display=swap"); */
+
+
+/* Підключення вручну */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+main {
+	padding: 30px;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+.main-title,
+.title,
+.sub-title {
+	font-family: "Poppins", sans-serif;
+}
+
+
+/* -------- CSS-властивості тексту ------------ */
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1440px;
+	text-align: justify;
+}
+
+.consult-block {
+	margin: 0 auto;
+	max-width: 676px;
+}
+
+.subtitle-block {
+	background-image: url("../img/rectangle8.png");
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+
+.subtitle {
+	color: #37393F;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 18px;
+	margin-bottom: 16px;
+}
+
+.title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 121%;
+	/* 48.4px */
+	margin-bottom: 20px;
+}
+
+.text-block {
+	line-height: 146.187%;
+	/* 26.314px */
+	margin-bottom: 20px;
+}
+
+.text-block p:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.list {
+	margin-bottom: 43px;
+}
+
+.item {
+	padding-left: 35px;
+	padding-top: 4.5px;
+	height: 28px;
+	background-image: url(../img/point.svg);
+	background-repeat: no-repeat;
+	/* background: url(../img/point.svg) no-repeat; */
+}
+
+.item:not(:last-child) {
+	margin-bottom: 23px;
+}
+
+.cart-block {
+	margin-bottom: 37px;
+	text-align: center;
+}
+
+.cart-block__cart1 {
+	display: inline-block;
+	border: 1px solid #E3E3E3;
+	padding: 32px;
+	background-image: url("../img/icon1.svg");
+	background-repeat: no-repeat;
+	background-position: 32px 31px;
+	margin: 21px;
+	text-align: left;
+}
+
+.cart-block__cart2 {
+	display: inline-block;
+	border: 1px solid #E3E3E3;
+	padding: 32px;
+	background-image: url("../img/icon2.svg");
+	background-repeat: no-repeat;
+	background-position: 32px 31px;
+	text-align: left;
+}
+
+.cart-block__content {
+	margin-left: 58px;
+	max-width: 173px;
+}
+
+.cart-block__subtitle {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+
+.cart-block__text {
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 16px;
+	line-height: 135.187%;
+	/* 21.63px */
+}
+
+.consulting-button {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #6B77E5;
+	padding: 21px 27px 22px;
+}
+
+.button__block {
+	margin-bottom: 37px;
+}
+
+/*  */
+
+.consult-block2__content {
+	margin: 0 auto;
+	max-width: 852px;
+	margin-bottom: 47px;
+}
+
+.consult-block2 {
+	margin: 0 auto;
+	max-width: 1220px;
+}
+
+.consult-block2 h2 {
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+.center {
+	margin-left: 50%;
+	transform: translate(-25%);
+}
+
+.consult-block2 .text-block {
+	margin-bottom: 0;
+}
+
+.consult-block2__row {
+	margin-bottom: 58px;
+}
+
+.cart-block__cart3 {
+	display: inline-block;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/* .cart-block__cart3:not(:nth-child(3n)) {
+	margin-right: 26px;
+} */
+
+.image {
+	height: 501px;
+	width: 384px;
+	margin-bottom: 24px;
+}
+
+.cart-block__image1 {
+	background: url(../img/img1.png) no-repeat;
+}
+
+.cart-block__image2 {
+	background: url(../img/img2.png) no-repeat;
+}
+
+.cart-block__image3 {
+	background: url(../img/img3.png) no-repeat;
+}
+
+.cart-block__image4 {
+	background: url(../img/img4.png) no-repeat;
+}
+
+.cart-block__image5 {
+	background: url(../img/img5.png) no-repeat;
+}
+
+.cart-block__image6 {
+	background: url(../img/img6.png) no-repeat;
+}
+
+.cart-block__calendar {
+	background: url(../img/calendar.svg) no-repeat;
+	padding-left: 26.87px;
+	text-align: left;
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 146.187%;
+	/* 20.466px */
+	margin-bottom: 15px;
+}
+
+.consult-block2 .cart-block__subtitle {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+/*  */
+.ecommerce {
+	margin: 0 auto;
+	/* max-width: 1240px; */
+	margin-bottom: 100px;
+	font-family: Causten, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.ecommerce__content {
+	margin: 0 auto;
+	max-width: 1220px;
+}
+
+.ecommerce-subtitle {
+	color: #3C4242;
+	font-family: Core Sans C, sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 33.5px;
+	/* 119.643% */
+	letter-spacing: 0.56px;
+}
+
+.violet-element {
+	background: url(../img/rectangle21.png) no-repeat;
+	height: 28px;
+	padding-left: 15px;
+	margin-bottom: 25px;
+}
+
+.ecommerce__content {
+	padding: 0 21px;
+	line-height: 33.5px;
+	/* 167.5% */
+	margin-bottom: 25px;
+}
+
+.ecommerce__content *:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+span {
+	font-family: Core Sans C, sans-serif;
+	font-weight: 600;
+}
+
+/*  */
+
+.image-content2 {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1440px;
+	margin-bottom: 50px;
+}
+
+
+.cart-block__image7 {
+	display: inline-block;
+	height: 639.72px;
+	width: 614px;
+	background: url(../img/img7.png) no-repeat;
+	vertical-align: bottom;
+}
+
+.image7__content {
+	padding: 170px 74px 0;
+}
+
+.image7__subtitle {
+	color: #fff;
+	font-family: Core Sans C, sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 50px;
+	/* 147.059% */
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.image7__text-block {
+	color: #FFF;
+	font-family: Causten, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	max-width: 405px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.image7__text-block p {
+	text-align: left;
+}
+
+.image7__button-body {
+	text-align-last: left;
+}
+
+.image7__button {
+	color: #3C4242;
+	font-family: Causten, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 12px 44px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+.cart-block__image8 {
+	display: inline-block;
+	height: 638px;
+	width: 626px;
+	background: url(../img/img8.png) no-repeat;
+	margin: -4px 0 0 -4px;
+	vertical-align: bottom;
+}
+
+/*  */
+
+.practica_img {
+	display: block;
+	height: 500px;
+	/* background: url(../img/img1.png) no-repeat, linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 80%); */
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	/* background-attachment: scroll; */
+	background-attachment: fixed;
+	/* background-size: 25%; */
+	/* background-size: auto 50px; */
+	background: url("../img/img1.png") no-repeat 10px 10px / 200px, url("../img/img2.png") no-repeat 220px 10px / 200px, linear-gradient(55.95deg, rgba(255, 64, 58, 0.3) 0%, rgba(247, 94, 5, 0.3) 100%), url("../img/home/01.png") no-repeat right top / 800px;
+}
