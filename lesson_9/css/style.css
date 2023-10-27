@@ -1,0 +1,476 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,600,700&display=swap");
+
+
+/* Підключення вручну */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+main {
+	padding: 30px;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+.main-title,
+.title,
+.subtitle {
+	font-family: "Poppins", sans-serif;
+}
+
+/* -------- CSS-основні властивості ------------ */
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1440px;
+	text-align: justify;
+}
+
+.page__consulting {
+	margin: 0 auto;
+	max-width: 692px;
+	margin-bottom: 20px;
+}
+
+.page__consulting-2 {
+	margin: 0 auto;
+	max-width: 1220px;
+	margin-bottom: 20px;
+}
+
+.page__jewellery {
+	margin: 0 auto;
+	max-width: 1600px;
+	text-align: center;
+}
+
+.page__title {
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 38.10px;
+	margin-bottom: 3px;
+}
+
+.title-middle {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.title-small {
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+
+.title-verysmall {
+	display: inline-block;
+	font-size: 18px;
+	line-height: normal;
+	margin-bottom: 0;
+}
+
+.title-big {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.page__text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26.314px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.page__text p:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.page__subtitle {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 25.40px;
+	word-wrap: break-word;
+	margin-bottom: 12px;
+}
+
+.blue-subtitle,
+.blue-subtitle:visited {
+	color: #6B77E5;
+}
+
+.green-subtitle,
+.green-subtitle:visited {
+	color: #40DDB6;
+	margin-bottom: 21px;
+}
+
+.blue-subtitle:hover,
+.green-subtitle:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
+
+.page__items {
+	margin-bottom: 30px;
+}
+
+.page__image {
+	display: inline-block;
+	margin-right: 23px;
+	margin-bottom: 30px;
+}
+
+.page__block-text {
+	display: inline-block;
+	max-width: 332px;
+	vertical-align: top;
+}
+
+.page__list li:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.page__item {
+	/* background: url(../img/point.svg) no-repeat; */
+	padding-left: 36px;
+	/* height: 27px; */
+	/* padding-top: 4.5px; */
+}
+
+.page__item::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/point.svg) no-repeat;
+	height: 27px;
+	width: 27px;
+	padding-right: 5px;
+	margin-left: -36px;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+
+.element-greensquare {
+	background: url(../img/rectangle8.png) no-repeat;
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	/* margin-right: 6px; */
+}
+
+.title-greensquare {
+	margin-bottom: 16px;
+}
+
+.block-cart__cart:last-child {
+	margin-bottom: 0;
+}
+
+.block-cart__cart {
+	border: 1px solid #E3E3E3;
+	background: url(../img/point.svg) no-repeat;
+	background-position: 38px 28px;
+	padding: 28px 41px 28px 38px;
+	margin-bottom: 31px;
+}
+
+.block-cart__content {
+	padding-left: 36px;
+}
+
+.text-hide {
+	display: none;
+}
+
+.block-cart__content:hover .text-hide {
+	display: block;
+}
+
+.block-cart__title {
+	margin-top: -3.5px;
+	margin-bottom: 0;
+}
+
+.block-cart__text {
+	margin-bottom: 0;
+}
+
+.block-cart {
+	margin-bottom: 48px;
+}
+
+.consulting-button {
+	display: inline-block;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #6B77E5;
+	padding: 21px 27px 22px;
+	margin-bottom: 37px;
+}
+
+.consulting-button:hover {
+	background-color: #2c3694;
+}
+
+.title-cart-2 {
+	margin-bottom: 40px;
+}
+
+.block-cart-2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.block-cart-2__cart-grey {
+	display: inline-block;
+	padding-top: 36px;
+	max-width: 386px;
+	margin-bottom: 31px;
+}
+
+.cart-grey:not(:last-child) {
+	margin-right: 31px;
+}
+
+.cart-icon {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: -36px;
+}
+
+.block-cart-2__content {
+	background-color: #F4F4F4;
+	padding: 58px 43px;
+
+}
+
+.block-cart-2__title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.block-cart-2__text {
+	margin-bottom: 37px;
+}
+
+.block-cart-2__content .blue-subtitle {
+	font-weight: 600;
+}
+
+/*  */
+
+.jewellery_block {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+
+.jewellery__title {
+	display: inline-block;
+	color: #000;
+}
+
+.jewellery__title::after {}
+
+.jewellery__title.title-big {
+	padding-top: 159px;
+	max-width: 488px;
+	text-align: left;
+	font-family: Cormorant Infant;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 115%;
+	/* 69px */
+	margin-bottom: 0px;
+}
+
+.title-line {
+	display: inline-block;
+	max-width: 488px;
+	text-align: left;
+}
+
+.title-line::after {
+	display: inline-block;
+	content: '';
+	width: 304px;
+	height: 3px;
+	background-color: #78473B;
+}
+
+.titile-middle {
+	font-family: Cormorant Infant;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 113%;
+	/* 51.98px */
+	text-align: left;
+	max-width: 339px;
+	margin-bottom: 40px;
+}
+
+.jewellery-img {
+	max-height: 381px;
+	max-width: 334px;
+	border: 1px solid #000;
+	margin-bottom: 54px;
+
+}
+
+.jewellery-img img {
+	background-size: cover;
+	/* transform: translate(9px, 10px); */
+	padding-top: 9px;
+	padding-left: 10px;
+}
+
+.jewellery-img img:hover {
+	transform: scale(1.02);
+	transition: 0.4s;
+	padding: 0;
+	/* box-shadow: 5px 5px 65px rgba(80, 80, 255, 1.2); */
+	;
+}
+
+.jewellery__text {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.jewellery__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.jewellery_block:nth-child(2) {
+	padding-top: 41px;
+	margin-right: 45px;
+}
+
+/*  */
+
+.game-block {
+	background-color: rgba(147, 231, 38, 0.694);
+	font-size: 0;
+}
+
+.el {
+	background-color: #12a1d0;
+	border-width: 0;
+}
+
+.el-1 {
+	display: block;
+	width: 90px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.el-2 {
+	display: inline-block;
+	width: 30px;
+	height: 90px;
+	margin-left: 60px;
+}
+
+.el-3 {
+	display: inline-block;
+	width: 300px;
+	height: 30px;
+	/* margin-left: 60px; */
+}
+
+.el-4 {
+	display: inline-block;
+	width: 30px;
+	height: 90px;
+	/* margin-left: 330px; */
+}
+
+.el-5 {
+	display: inline-block;
+	width: 600px;
+	height: 30px;
+	margin-bottom: 60px;
+}
+
+.el-6 {
+	display: inline-block;
+	width: 30px;
+	height: 90px;
+}
+
+.el-7 {
+	display: inline-block;
+	width: 330px;
+	height: 30px;
+}
+
+.el-8 {
+	display: block;
+	width: 90px;
+	height: 30px;
+	margin-left: 1350px;
+	background-color: red;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+
+.el-2,
+.el-3,
+.el-4,
+.el-5,
+.el-6,
+.el-7,
+.el-8 {
+	visibility: hidden;
+}
+
+.el-1:hover~.el-2,
+.el-2:hover,
+.el-2:hover~.el-3,
+.el-3:hover,
+.el-3:hover~.el-4,
+.el-4:hover,
+.el-4:hover~.el-5,
+.el-5:hover,
+.el-5:hover~.el-6,
+.el-6:hover,
+.el-6:hover~.el-7,
+.el-7:hover,
+.el-7:hover~.el-8,
+.el-8:hover {
+	visibility: visible;
+}
