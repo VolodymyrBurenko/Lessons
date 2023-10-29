@@ -36,7 +36,6 @@ main {
 [class*="__container"] {
 	margin: 0 auto;
 	max-width: 1440px;
-	text-align: justify;
 }
 
 .page__consulting {
@@ -136,7 +135,6 @@ main {
 .page__image {
 	display: inline-block;
 	margin-right: 23px;
-	margin-bottom: 30px;
 }
 
 .page__block-text {
@@ -225,7 +223,6 @@ main {
 	color: #fff;
 	background-color: #6B77E5;
 	padding: 21px 27px 22px;
-	margin-bottom: 37px;
 }
 
 .consulting-button:hover {
@@ -333,6 +330,7 @@ main {
 }
 
 .jewellery-img {
+	width: 100%;
 	max-height: 381px;
 	max-width: 334px;
 	border: 1px solid #000;
@@ -341,14 +339,14 @@ main {
 }
 
 .jewellery-img img {
-	background-size: cover;
+	width: 100%;
 	/* transform: translate(9px, 10px); */
-	padding-top: 9px;
-	padding-left: 10px;
+	margin-top: 9px;
+	margin-left: 10px;
 }
 
 .jewellery-img img:hover {
-	transform: scale(1.02);
+	transform: scale(1.1);
 	transition: 0.4s;
 	padding: 0;
 	/* box-shadow: 5px 5px 65px rgba(80, 80, 255, 1.2); */
@@ -382,6 +380,15 @@ main {
 .el {
 	background-color: #12a1d0;
 	border-width: 0;
+}
+
+.el:not(:first-child) {
+	visibility: hidden;
+}
+
+.el:hover,
+.el:hover+.el {
+	visibility: visible;
 }
 
 .el-1 {
@@ -445,32 +452,4 @@ main {
 	text-align: center;
 	padding-top: 5px;
 
-}
-
-
-.el-2,
-.el-3,
-.el-4,
-.el-5,
-.el-6,
-.el-7,
-.el-8 {
-	visibility: hidden;
-}
-
-.el-1:hover~.el-2,
-.el-2:hover,
-.el-2:hover~.el-3,
-.el-3:hover,
-.el-3:hover~.el-4,
-.el-4:hover,
-.el-4:hover~.el-5,
-.el-5:hover,
-.el-5:hover~.el-6,
-.el-6:hover,
-.el-6:hover~.el-7,
-.el-7:hover,
-.el-7:hover~.el-8,
-.el-8:hover {
-	visibility: visible;
 }
