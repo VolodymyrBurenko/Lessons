@@ -1,0 +1,78 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,600,700&display=swap");
+
+
+/* Підключення вручну */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+main {
+	padding: 30px;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+.main-title,
+.title,
+.subtitle {
+	font-family: "Poppins", sans-serif;
+}
+
+/* -------- CSS-основні властивості ------------ */
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+section {
+	border: 2px dotted #7d7d7d;
+	padding: 10px;
+}
+
+.block__title {
+	color: darkorange;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.block__subtitle {
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 25px;
+	text-decoration: underline;
+}
+
+.block__image {
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+}
+
+.block__image--scale img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.block__image--grey {
+	display: inline-block;
+	background-color: #37393F;
+}
+
+.block__image--raste img {
+	height: 400px;
+}
