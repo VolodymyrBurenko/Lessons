@@ -1,0 +1,40 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,600,700&display=swap");
+
+
+/* Підключення вручну */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+main {
+	padding: 30px;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+.main-title,
+.title,
+.subtitle {
+	font-family: "Poppins", sans-serif;
+}
+
+/* -------- CSS-основні властивості ------------ */
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1440px;
+	height: ;
+}
