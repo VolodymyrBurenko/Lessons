@@ -68,17 +68,17 @@ main {
 	background-color: #000;
 }
 
-.menu__item:hover .menu__sub-menu--chartreuse {
+.menu__item:hover .menu__sub-list--chartreuse {
 	visibility: visible;
 }
 
-.menu__sub-menu {
+.menu__sub-list {
 	visibility: hidden;
 	position: absolute;
 	z-index: 3;
 }
 
-.menu__sub-menu--chartreuse {
+.menu__sub-list--chartreuse {
 	left: 0;
 	top: 60px;
 	width: 150px;
@@ -87,7 +87,7 @@ main {
 	z-index: 3;
 }
 
-.menu__sub-menu--blue {
+.menu__sub-list--blue {
 	left: 100%;
 	top: 0;
 	width: 150px;
@@ -204,7 +204,7 @@ main {
 	margin-bottom: 10px;
 }
 
-.section__text {
+.section--text {
 	margin-bottom: 20px;
 }
 
