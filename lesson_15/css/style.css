@@ -1,0 +1,446 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,600,700&display=swap");
+
+
+/* Підключення вручну */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+main {
+	padding: 30px;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+.main-title,
+.title,
+.subtitle {
+	font-family: "Poppins", sans-serif;
+}
+
+/* -------- CSS-основні властивості ------------ */
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1240px;
+	height: 100%;
+	/* padding-left: 15px;
+		padding-right: 15px; */
+}
+
+/* ---------header --------- */
+
+.header {
+	height: 111px;
+	padding-top: 34px;
+	padding-top: 31px;
+}
+
+.header__container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header__logo {
+	margin-right: 165px;
+}
+
+.header__button-search {}
+
+.header__button-search--greey {
+	height: 46px;
+	width: 234px;
+	border-radius: 8px;
+	color: #807D7E;
+	background-color: #F6F6F6;
+	margin-right: 112px;
+	margin-right: 112px;
+	/* 112px */
+}
+
+.header__input-search {
+	width: 66px;
+	height: 22px;
+	padding: 2px 5px;
+	color: #807D7E;
+	text-align: center;
+	font-family: Causten, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #F6F6F6;
+	outline: #F6F6F6;
+	padding: 2px;
+
+}
+
+.header__input-search:hover {
+	cursor: text;
+}
+
+.header__button-search--greey::before {
+	content: '';
+	height: 20px;
+	width: 20px;
+	margin-right: 12px;
+	vertical-align: middle;
+	background: url(../img/svg/search.svg) no-repeat;
+}
+
+.button {
+	max-height: 46px;
+	padding: 12px 48px;
+	border-radius: 8px;
+	min-width: 144px;
+}
+
+.button:hover {
+	box-shadow: 2px 2px 5px #2A2F2F;
+}
+
+.header__select {
+	position: relative;
+	display: inline-block;
+	margin-right: 70px;
+	height: 24px;
+	color: #333;
+	font-family: Causten, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.header__select::after {
+	/* content: "▼"; */
+	content: "";
+	background: url(../img/svg/vector.svg) no-repeat;
+	padding: 0 8px;
+	font-size: 18px;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+	z-index: 5;
+	text-align: center;
+	width: 10%;
+	height: 100%;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+
+select {
+	padding-right: 36px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+}
+
+.select:active,
+.select:hover {
+	border: 2px solid #8A33FD;
+}
+
+.header__button-login {
+	color: #FFF;
+	text-align: center;
+	font-family: Causten, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #8A33FD;
+	margin-right: 30px;
+}
+
+.header__button-sing {
+	border: 1px solid #3C4242;
+	color: #8A33FD;
+	min-width: 165px;
+}
+
+
+/* ---------section product --------- */
+
+.title {}
+
+.product__title--violet {
+	color: #3C4242;
+	font-family: Core Sans C, sans-serif;
+	font-size: 34px;
+	font-weight: 600;
+	margin-bottom: 70px;
+	/* border: 1px solid red; */
+}
+
+.product__title--violet::before {
+	content: '';
+	height: 30px;
+	width: 6px;
+	margin-right: 30px;
+	vertical-align: middle;
+	background: url(../img/svg/rectangle-21.svg) no-repeat;
+}
+
+.product__content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	margin-bottom: 25px;
+}
+
+.product__card {
+	max-width: 270px;
+}
+
+.product__card:not(:last-child) {
+	/* margin-bottom: 50px; */
+}
+
+.product__image img {
+	max-width: 100%;
+	border-radius: 10px;
+	margin-bottom: 15.64px;
+}
+
+.product__label {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product__text {
+	display: flex;
+	flex-direction: column;
+	max-width: 212px;
+}
+
+.product__text a:hover {
+	color: #8A33FD;
+}
+
+.product__category {
+	color: #2A2F2F;
+	font-family: Causten, sans-serif;
+	font-size: 17.875px;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.product__explore {
+	color: #7F7F7F;
+	font-family: Causten, sans-serif;
+	font-size: 13.407px;
+	font-weight: 500;
+	line-height: 27.93px;
+}
+
+.product__arrow:hover {
+	transform: scale(1.1);
+}
+
+
+/* ---------section wishlist--------- */
+
+.wishlist {
+	margin-bottom: 50px;
+}
+
+.wishlist__title {
+	color: #3C4242;
+	font-family: Core Sans C, sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 33.5px;
+	/* 119.643% */
+	letter-spacing: 0.56px;
+	margin-bottom: 20px;
+}
+
+
+.wishlist__product-content {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 0 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #EDEEF2;
+}
+
+.wishlist__product-content::before {
+	content: '';
+	width: 36px;
+	height: 36px;
+	background: url(../img/svg/close-cross.svg) no-repeat;
+	cursor: pointer;
+}
+
+
+.wishlist__product-image {
+	display: flex;
+	flex: 0 0 auto;
+	max-width: 110px;
+
+}
+
+.wishlist__product-image img {
+	max-width: 100%;
+}
+
+.wishlist__label {
+	flex-basis: 65%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-right: 36px;
+}
+
+.wishlist__label :nth-child(n) {
+	color: #3C4242;
+	font-family: Causten, sans-serif;
+	font-size: 22px;
+	letter-spacing: 0.44px;
+}
+
+.wishlist__label :not(:last-child) {
+	margin-bottom: 23px;
+}
+
+.wishlist__price {
+	color: #807D7E;
+	font-family: Causten, sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.44px;
+	min-width: 82px;
+	margin-right: 50px;
+}
+
+.wishlist__button {
+	color: #FFF;
+	text-align: center;
+	font-family: Causten, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #8A33FD;
+	padding: 12px 28px;
+	margin-right: 6px;
+}
+
+.wishlist__link:hover {
+	text-decoration: underline;
+}
+
+
+/* ---------section orders--------- */
+
+
+.orders__order-content {
+	padding: 47px 28px;
+	background-color: #F6F6F6;
+}
+
+.orders__order-title {
+	color: #3C4242;
+	font-family: Causten, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 14px;
+}
+
+.orders__order-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #807D7E;
+	font-size: 14px;
+}
+
+.orders__info {
+	color: #807D7E;
+	font-family: Causten, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.44px;
+	margin-bottom: 5px;
+}
+
+.orders__info :not(:last-child) {
+	margin-bottom: 7px;
+}
+
+.orders__info--right {
+	text-align: right;
+}
+
+/*  */
+
+.orders__product-content {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #EDEEF2;
+}
+
+.orders__product-image {
+	border-radius: 4px;
+	margin-right: 22px;
+}
+
+.orders__product-image img {
+	min-width: 100%;
+	width: 96px;
+	height: 96px;
+}
+
+.orders__body {
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 91%;
+	align-items: center;
+}
+
+.orders__label {
+	color: #3C4242;
+	font-family: Causten, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+
+}
+
+.orders__label :not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.orders__label-title {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.orders__info span,
+.orders__label span {
+	color: #BEBCBD;
+}
+
+.orders__price--grey {
+	color: #807D7E;
+	font-weight: 600;
+}
+
+.orders__button {
+	color: #FFF;
+	font-family: Causten, sans-serif;
+	font-size: 18px;
+	background-color: #8A33FD;
+	padding: 12px 28px;
+}
