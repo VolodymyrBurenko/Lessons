@@ -1,0 +1,24 @@
+@use "sass:math";
+
+// Fonts
+@import "_fonts.scss";
+// Reset
+@import "_reset.scss";
+// Vars
+@import "_vars.scss";
+// Common
+// @import "_common.scss";
+// Functions
+@import "_functions.scss";
+
+//Base
+@import "_base.scss";
+//Header
+// @import "_header.scss";
+//Main
+@import "_section-practice.scss";
+@import "_section-info.scss";
+@import "_section-checkout.scss";
+
+// Footer
+// @import "_footer.scss";
